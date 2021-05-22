@@ -1,0 +1,18 @@
+﻿<Window x:Class="Desktop_Arranger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Desktop_Arranger"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="426" Opacity="0.60" WindowStyle="None" AllowsTransparency="True" Background="Black">
+    <Grid>
+        <Grid x:Name="TitleBar" Height="25" VerticalAlignment="Top" Background="#FF464646"
+                   MouseMove="TitleBar_MouseMove">
+            <Button x:Name="CloseButton" Width="20" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,2,0" Height="20"
+                    Click="CloseButton_Click" BorderBrush="Transparent" Background="Transparent">
+                <Image x:Name="CloseButtonImg" Height="15.9" Width="15.9" Source="Assets/Icons/CloseButton.png"/>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
